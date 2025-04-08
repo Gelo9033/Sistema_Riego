@@ -1,14 +1,93 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36" version="26.2.8">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36" version="26.2.9">
   <diagram name="Page-1" id="g3UqPk6g5Lqblqn8YSuC">
-    <mxGraphModel dx="1428" dy="825" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="874" dy="481" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="OVNSUnDLSR-qPlaHyFdE-1" value="&lt;b&gt;DIAGRAMA DE CONTEXTO&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="343" y="40" width="165" height="30" as="geometry" />
+        <mxCell id="OVNSUnDLSR-qPlaHyFdE-1" value="&lt;b&gt;DIAGRAMA DE CONTEXTO&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="343" y="30" width="165" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="OVNSUnDLSR-qPlaHyFdE-2" value="SISRIEGOSENS" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="ehfFXGyOq0PHJIFQZvKG-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.425;entryY=1.05;entryDx=0;entryDy=0;curved=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryPerimeter=0;" edge="1" parent="1" source="OVNSUnDLSR-qPlaHyFdE-2" target="ehfFXGyOq0PHJIFQZvKG-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="405.5" y="410" as="sourcePoint" />
+            <mxPoint x="140" y="180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ehfFXGyOq0PHJIFQZvKG-17" value="Muestra lecturas en tiempo real" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ehfFXGyOq0PHJIFQZvKG-4">
+          <mxGeometry x="0.2957" y="-40" relative="1" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ehfFXGyOq0PHJIFQZvKG-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=1;" edge="1" parent="1" source="OVNSUnDLSR-qPlaHyFdE-2" target="ehfFXGyOq0PHJIFQZvKG-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ehfFXGyOq0PHJIFQZvKG-15" value="Acciona todo el sistema de riego" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ehfFXGyOq0PHJIFQZvKG-7">
+          <mxGeometry x="0.3383" y="41" relative="1" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ehfFXGyOq0PHJIFQZvKG-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=1;" edge="1" parent="1" source="OVNSUnDLSR-qPlaHyFdE-2" target="ehfFXGyOq0PHJIFQZvKG-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ehfFXGyOq0PHJIFQZvKG-18" value="Guarda lecturaas de los sensores con una actualizacion de 5min" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ehfFXGyOq0PHJIFQZvKG-10">
+          <mxGeometry x="-0.0352" y="41" relative="1" as="geometry">
+            <mxPoint x="-21" y="117" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ehfFXGyOq0PHJIFQZvKG-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=1;" edge="1" parent="1" source="OVNSUnDLSR-qPlaHyFdE-2" target="ehfFXGyOq0PHJIFQZvKG-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ehfFXGyOq0PHJIFQZvKG-21" value="Envia las notificacion de cada uno de los procesos" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ehfFXGyOq0PHJIFQZvKG-13">
+          <mxGeometry x="-0.0351" y="-34" relative="1" as="geometry">
+            <mxPoint x="-38" y="96" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OVNSUnDLSR-qPlaHyFdE-2" value="SISRIEGOSENS" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="355.5" y="340" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ehfFXGyOq0PHJIFQZvKG-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;curved=1;" edge="1" parent="1" source="ehfFXGyOq0PHJIFQZvKG-1" target="OVNSUnDLSR-qPlaHyFdE-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ehfFXGyOq0PHJIFQZvKG-16" value="Revisa las lecturas de los sensores" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ehfFXGyOq0PHJIFQZvKG-3">
+          <mxGeometry x="-0.6049" y="-15" relative="1" as="geometry">
+            <mxPoint x="32" y="15" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ehfFXGyOq0PHJIFQZvKG-1" value="EncargadoCampo" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="90" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ehfFXGyOq0PHJIFQZvKG-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;curved=1;" edge="1" parent="1" source="ehfFXGyOq0PHJIFQZvKG-2" target="OVNSUnDLSR-qPlaHyFdE-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ehfFXGyOq0PHJIFQZvKG-8" value="Inicia el riego de forma mannual" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ehfFXGyOq0PHJIFQZvKG-5">
+          <mxGeometry x="0.1999" y="56" relative="1" as="geometry">
+            <mxPoint x="14" y="20" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ehfFXGyOq0PHJIFQZvKG-2" value="EncargadoRiego" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="680" y="90" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ehfFXGyOq0PHJIFQZvKG-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;curved=1;" edge="1" parent="1" source="ehfFXGyOq0PHJIFQZvKG-9" target="OVNSUnDLSR-qPlaHyFdE-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ehfFXGyOq0PHJIFQZvKG-19" value="Guarda la información" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ehfFXGyOq0PHJIFQZvKG-11">
+          <mxGeometry x="-0.4993" y="4" relative="1" as="geometry">
+            <mxPoint x="11" y="-26" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ehfFXGyOq0PHJIFQZvKG-9" value="Almacenamiento" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="640" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ehfFXGyOq0PHJIFQZvKG-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=1;" edge="1" parent="1" source="ehfFXGyOq0PHJIFQZvKG-12" target="OVNSUnDLSR-qPlaHyFdE-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ehfFXGyOq0PHJIFQZvKG-20" value="Envia una notificacion de inicio y fin de riego" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ehfFXGyOq0PHJIFQZvKG-14">
+          <mxGeometry x="-0.1365" y="-18" relative="1" as="geometry">
+            <mxPoint x="34" y="-42" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ehfFXGyOq0PHJIFQZvKG-12" value="Notificacion" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="680" y="640" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
