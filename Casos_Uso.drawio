@@ -1,0 +1,448 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36" version="26.2.10" pages="6">
+  <diagram name="Caso_General" id="arvDlLISbcDBrVnGGUqu">
+    <mxGraphModel dx="1748" dy="962" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="gssGcW6bRnnRcE1PZCzO-5" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="75" y="10" width="700" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="gssGcW6bRnnRcE1PZCzO-1" value="&lt;div style=&quot;-webkit-user-drag: none; -webkit-tap-highlight-color: transparent; margin: 0px; padding: 0px; user-select: text; clear: both; cursor: text; overflow: visible; position: relative; direction: ltr; color: rgb(0, 0, 0); font-family: &amp;quot;Segoe UI&amp;quot;, &amp;quot;Segoe UI Web&amp;quot;, Arial, Verdana, sans-serif; text-align: start;&quot; class=&quot;OutlineElement Ltr SCXW107485866 BCX0&quot;&gt;&lt;p style=&quot;-webkit-user-drag: none; -webkit-tap-highlight-color: transparent; margin: 5.26667px 0px 0px; padding: 0px; user-select: text; overflow-wrap: break-word; white-space-collapse: preserve; vertical-align: baseline; font-kerning: none; color: windowtext; text-align: center;&quot; class=&quot;Paragraph SCXW107485866 BCX0&quot;&gt;&lt;span style=&quot;-webkit-user-drag: none; -webkit-tap-highlight-color: transparent; margin: 0px; padding: 0px; user-select: text; font-size: 16pt; font-style: italic; line-height: 25px; font-family: Arial, Arial_EmbeddedFont, Arial_MSFontService, sans-serif; font-weight: bold; background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); font-variant-ligatures: none !important;&quot; class=&quot;TextRun SCXW107485866 BCX0&quot; lang=&quot;ES-ES&quot; data-contrast=&quot;auto&quot;&gt;Prototipo para el Control de Humedad por Sensores&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;-webkit-user-drag: none; -webkit-tap-highlight-color: transparent; margin: 5.26667px 0px 0px; padding: 0px; user-select: text; overflow-wrap: break-word; white-space-collapse: preserve; vertical-align: baseline; font-kerning: none; color: windowtext; text-align: center;&quot; class=&quot;Paragraph SCXW107485866 BCX0&quot;&gt;&lt;span style=&quot;-webkit-user-drag: none; -webkit-tap-highlight-color: transparent; margin: 0px; padding: 0px; user-select: text; font-size: 16pt; font-style: italic; line-height: 25px; font-family: Arial, Arial_EmbeddedFont, Arial_MSFontService, sans-serif; font-weight: bold; background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); font-variant-ligatures: none !important;&quot; class=&quot;TextRun SCXW107485866 BCX0&quot; lang=&quot;ES-ES&quot; data-contrast=&quot;auto&quot;&gt;SISRIEGOSENS &lt;/span&gt;&lt;/p&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=default;fillStyle=dashed;" vertex="1" parent="gssGcW6bRnnRcE1PZCzO-5">
+          <mxGeometry width="700" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gssGcW6bRnnRcE1PZCzO-4" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="gssGcW6bRnnRcE1PZCzO-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="75" y="70" as="sourcePoint" />
+            <mxPoint x="615" y="70" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="355" y="70" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gssGcW6bRnnRcE1PZCzO-6" value="" style="whiteSpace=wrap;html=1;aspect=fixed;fillStyle=hatch;fillColor=none;strokeWidth=4;" vertex="1" parent="1">
+          <mxGeometry x="70" y="150" width="700" height="700" as="geometry" />
+        </mxCell>
+        <mxCell id="gssGcW6bRnnRcE1PZCzO-7" value="&lt;b&gt;CASO DE USO GENERAL&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="343" y="160" width="165" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gssGcW6bRnnRcE1PZCzO-27" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;startFill=0;" edge="1" parent="1" source="gssGcW6bRnnRcE1PZCzO-8" target="gssGcW6bRnnRcE1PZCzO-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gssGcW6bRnnRcE1PZCzO-8" value="Activar/Desactivar&amp;nbsp; el riego" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="200" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="gssGcW6bRnnRcE1PZCzO-29" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;startFill=0;" edge="1" parent="1" source="gssGcW6bRnnRcE1PZCzO-9" target="gssGcW6bRnnRcE1PZCzO-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gssGcW6bRnnRcE1PZCzO-9" value="Monitorear en tiempo real las condiciones de sensores" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="380" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="gssGcW6bRnnRcE1PZCzO-28" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;startFill=0;" edge="1" parent="1" source="gssGcW6bRnnRcE1PZCzO-10" target="gssGcW6bRnnRcE1PZCzO-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gssGcW6bRnnRcE1PZCzO-10" value="Recibir notificaciones de inio y fin de riego" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="550" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="gssGcW6bRnnRcE1PZCzO-25" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;startFill=0;exitX=0.99;exitY=0.435;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="gssGcW6bRnnRcE1PZCzO-11" target="gssGcW6bRnnRcE1PZCzO-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gssGcW6bRnnRcE1PZCzO-11" value="Realizar consultas en diferentes periodos de lecturas realizadas por sensores" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="720" width="162.75" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="gssGcW6bRnnRcE1PZCzO-19" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;startFill=0;" edge="1" parent="1" source="gssGcW6bRnnRcE1PZCzO-12" target="gssGcW6bRnnRcE1PZCzO-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gssGcW6bRnnRcE1PZCzO-20" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;startFill=0;" edge="1" parent="1" source="gssGcW6bRnnRcE1PZCzO-12" target="gssGcW6bRnnRcE1PZCzO-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gssGcW6bRnnRcE1PZCzO-21" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;startFill=0;" edge="1" parent="1" source="gssGcW6bRnnRcE1PZCzO-12" target="gssGcW6bRnnRcE1PZCzO-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gssGcW6bRnnRcE1PZCzO-22" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;startFill=0;" edge="1" parent="1" source="gssGcW6bRnnRcE1PZCzO-12" target="gssGcW6bRnnRcE1PZCzO-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gssGcW6bRnnRcE1PZCzO-12" value="Administrador" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="140" y="415" width="70" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="gssGcW6bRnnRcE1PZCzO-15" value="Encargado_Campo" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="680" y="420" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gssGcW6bRnnRcE1PZCzO-16" value="Encargado_Riego" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="680" y="210" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gssGcW6bRnnRcE1PZCzO-17" value="Gerente" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="680" y="640" width="30" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="suNEXdLMi68iDnk_a27n" name="Med_Sensores">
+    <mxGraphModel dx="1249" dy="687" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="2F_IJ-BT0tjUSc80RfNm-1" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="75" y="10" width="700" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="2F_IJ-BT0tjUSc80RfNm-2" value="&lt;div style=&quot;-webkit-user-drag: none; -webkit-tap-highlight-color: transparent; margin: 0px; padding: 0px; user-select: text; clear: both; cursor: text; overflow: visible; position: relative; direction: ltr; color: rgb(0, 0, 0); font-family: &amp;quot;Segoe UI&amp;quot;, &amp;quot;Segoe UI Web&amp;quot;, Arial, Verdana, sans-serif; text-align: start;&quot; class=&quot;OutlineElement Ltr SCXW107485866 BCX0&quot;&gt;&lt;p style=&quot;-webkit-user-drag: none; -webkit-tap-highlight-color: transparent; margin: 5.26667px 0px 0px; padding: 0px; user-select: text; overflow-wrap: break-word; white-space-collapse: preserve; vertical-align: baseline; font-kerning: none; color: windowtext; text-align: center;&quot; class=&quot;Paragraph SCXW107485866 BCX0&quot;&gt;&lt;span style=&quot;-webkit-user-drag: none; -webkit-tap-highlight-color: transparent; margin: 0px; padding: 0px; user-select: text; font-size: 16pt; font-style: italic; line-height: 25px; font-family: Arial, Arial_EmbeddedFont, Arial_MSFontService, sans-serif; font-weight: bold; background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); font-variant-ligatures: none !important;&quot; class=&quot;TextRun SCXW107485866 BCX0&quot; lang=&quot;ES-ES&quot; data-contrast=&quot;auto&quot;&gt;Prototipo para el Control de Humedad por Sensores&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;-webkit-user-drag: none; -webkit-tap-highlight-color: transparent; margin: 5.26667px 0px 0px; padding: 0px; user-select: text; overflow-wrap: break-word; white-space-collapse: preserve; vertical-align: baseline; font-kerning: none; color: windowtext; text-align: center;&quot; class=&quot;Paragraph SCXW107485866 BCX0&quot;&gt;&lt;span style=&quot;-webkit-user-drag: none; -webkit-tap-highlight-color: transparent; margin: 0px; padding: 0px; user-select: text; font-size: 16pt; font-style: italic; line-height: 25px; font-family: Arial, Arial_EmbeddedFont, Arial_MSFontService, sans-serif; font-weight: bold; background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); font-variant-ligatures: none !important;&quot; class=&quot;TextRun SCXW107485866 BCX0&quot; lang=&quot;ES-ES&quot; data-contrast=&quot;auto&quot;&gt;SISRIEGOSENS &lt;/span&gt;&lt;/p&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=default;fillStyle=dashed;" vertex="1" parent="2F_IJ-BT0tjUSc80RfNm-1">
+          <mxGeometry width="700" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2F_IJ-BT0tjUSc80RfNm-3" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="2F_IJ-BT0tjUSc80RfNm-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="75" y="70" as="sourcePoint" />
+            <mxPoint x="615" y="70" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="355" y="70" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2F_IJ-BT0tjUSc80RfNm-4" value="" style="whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="40" y="110" width="770" height="390" as="geometry" />
+        </mxCell>
+        <mxCell id="2F_IJ-BT0tjUSc80RfNm-5" value="&lt;b&gt;Caso de Uso RF01&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="367" y="120" width="117" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2F_IJ-BT0tjUSc80RfNm-12" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;startFill=0;" edge="1" parent="1" source="2F_IJ-BT0tjUSc80RfNm-6" target="2F_IJ-BT0tjUSc80RfNm-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2F_IJ-BT0tjUSc80RfNm-6" value="Encargado_Riego" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="100" y="265" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2F_IJ-BT0tjUSc80RfNm-7" value="" style="whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="230" y="200" width="410" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="2F_IJ-BT0tjUSc80RfNm-8" value="SISRIEGOSENS" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="745" y="230" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2F_IJ-BT0tjUSc80RfNm-15" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;dashPattern=8 8;" edge="1" parent="1" source="2F_IJ-BT0tjUSc80RfNm-11" target="2F_IJ-BT0tjUSc80RfNm-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2F_IJ-BT0tjUSc80RfNm-16" value="&amp;lt;&amp;lt;Include&amp;gt;&amp;gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="2F_IJ-BT0tjUSc80RfNm-15">
+          <mxGeometry x="0.0659" y="1" relative="1" as="geometry">
+            <mxPoint x="-5" y="-3" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2F_IJ-BT0tjUSc80RfNm-11" value="Revisar mediciones en tiempo real" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="270" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="2F_IJ-BT0tjUSc80RfNm-14" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;startFill=0;entryX=0.5;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="2F_IJ-BT0tjUSc80RfNm-13" target="2F_IJ-BT0tjUSc80RfNm-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2F_IJ-BT0tjUSc80RfNm-13" value="Sincronizar lecturas de sensores" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="530" y="230" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="2F_IJ-BT0tjUSc80RfNm-18" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=1;entryDx=0;entryDy=0;dashed=1;dashPattern=8 8;" edge="1" parent="1" source="2F_IJ-BT0tjUSc80RfNm-17" target="2F_IJ-BT0tjUSc80RfNm-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2F_IJ-BT0tjUSc80RfNm-19" value="&amp;lt;&amp;lt;Extends&amp;gt;&amp;gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="2F_IJ-BT0tjUSc80RfNm-18">
+          <mxGeometry x="-0.1687" y="3" relative="1" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2F_IJ-BT0tjUSc80RfNm-17" value="Activar Riego" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="530" y="340" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="2F_IJ-BT0tjUSc80RfNm-20" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;startFill=0;" edge="1" parent="1" source="2F_IJ-BT0tjUSc80RfNm-17" target="2F_IJ-BT0tjUSc80RfNm-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="P3CfINT9tGbcpn_8EUiR" name="Riego_Manual">
+    <mxGraphModel dx="874" dy="481" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="gLOVui-XTa0jFNJpq2_D-1" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="75" y="10" width="700" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="gLOVui-XTa0jFNJpq2_D-2" value="&lt;div style=&quot;-webkit-user-drag: none; -webkit-tap-highlight-color: transparent; margin: 0px; padding: 0px; user-select: text; clear: both; cursor: text; overflow: visible; position: relative; direction: ltr; color: rgb(0, 0, 0); font-family: &amp;quot;Segoe UI&amp;quot;, &amp;quot;Segoe UI Web&amp;quot;, Arial, Verdana, sans-serif; text-align: start;&quot; class=&quot;OutlineElement Ltr SCXW107485866 BCX0&quot;&gt;&lt;p style=&quot;-webkit-user-drag: none; -webkit-tap-highlight-color: transparent; margin: 5.26667px 0px 0px; padding: 0px; user-select: text; overflow-wrap: break-word; white-space-collapse: preserve; vertical-align: baseline; font-kerning: none; color: windowtext; text-align: center;&quot; class=&quot;Paragraph SCXW107485866 BCX0&quot;&gt;&lt;span style=&quot;-webkit-user-drag: none; -webkit-tap-highlight-color: transparent; margin: 0px; padding: 0px; user-select: text; font-size: 16pt; font-style: italic; line-height: 25px; font-family: Arial, Arial_EmbeddedFont, Arial_MSFontService, sans-serif; font-weight: bold; background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); font-variant-ligatures: none !important;&quot; class=&quot;TextRun SCXW107485866 BCX0&quot; lang=&quot;ES-ES&quot; data-contrast=&quot;auto&quot;&gt;Prototipo para el Control de Humedad por Sensores&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;-webkit-user-drag: none; -webkit-tap-highlight-color: transparent; margin: 5.26667px 0px 0px; padding: 0px; user-select: text; overflow-wrap: break-word; white-space-collapse: preserve; vertical-align: baseline; font-kerning: none; color: windowtext; text-align: center;&quot; class=&quot;Paragraph SCXW107485866 BCX0&quot;&gt;&lt;span style=&quot;-webkit-user-drag: none; -webkit-tap-highlight-color: transparent; margin: 0px; padding: 0px; user-select: text; font-size: 16pt; font-style: italic; line-height: 25px; font-family: Arial, Arial_EmbeddedFont, Arial_MSFontService, sans-serif; font-weight: bold; background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); font-variant-ligatures: none !important;&quot; class=&quot;TextRun SCXW107485866 BCX0&quot; lang=&quot;ES-ES&quot; data-contrast=&quot;auto&quot;&gt;SISRIEGOSENS &lt;/span&gt;&lt;/p&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=default;fillStyle=dashed;" vertex="1" parent="gLOVui-XTa0jFNJpq2_D-1">
+          <mxGeometry width="700" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gLOVui-XTa0jFNJpq2_D-3" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="gLOVui-XTa0jFNJpq2_D-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="75" y="70" as="sourcePoint" />
+            <mxPoint x="615" y="70" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="355" y="70" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gLOVui-XTa0jFNJpq2_D-4" value="" style="whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="40" y="110" width="770" height="390" as="geometry" />
+        </mxCell>
+        <mxCell id="gLOVui-XTa0jFNJpq2_D-5" value="&lt;b&gt;Caso de Uso RF02&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="367" y="120" width="117" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gLOVui-XTa0jFNJpq2_D-6" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;startFill=0;" edge="1" parent="1" source="gLOVui-XTa0jFNJpq2_D-7" target="gLOVui-XTa0jFNJpq2_D-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gLOVui-XTa0jFNJpq2_D-7" value="Encargado_Riego" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="100" y="265" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gLOVui-XTa0jFNJpq2_D-8" value="" style="whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="230" y="200" width="410" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="gLOVui-XTa0jFNJpq2_D-9" value="SISRIEGOSENS" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="745" y="230" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gLOVui-XTa0jFNJpq2_D-10" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;dashPattern=8 8;" edge="1" parent="1" source="gLOVui-XTa0jFNJpq2_D-12" target="gLOVui-XTa0jFNJpq2_D-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gLOVui-XTa0jFNJpq2_D-11" value="&amp;lt;&amp;lt;Include&amp;gt;&amp;gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="gLOVui-XTa0jFNJpq2_D-10">
+          <mxGeometry x="0.0659" y="1" relative="1" as="geometry">
+            <mxPoint x="-5" y="-3" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gLOVui-XTa0jFNJpq2_D-20" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;dashPattern=8 8;endArrow=none;startFill=1;startArrow=classic;" edge="1" parent="1" source="gLOVui-XTa0jFNJpq2_D-12" target="gLOVui-XTa0jFNJpq2_D-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gLOVui-XTa0jFNJpq2_D-22" value="&amp;lt;&amp;lt;Extends&amp;gt;&amp;gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="gLOVui-XTa0jFNJpq2_D-20">
+          <mxGeometry x="0.0884" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gLOVui-XTa0jFNJpq2_D-12" value="Activar el riego de forma manual" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="270" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="gLOVui-XTa0jFNJpq2_D-13" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;startFill=0;entryX=0.5;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="gLOVui-XTa0jFNJpq2_D-14" target="gLOVui-XTa0jFNJpq2_D-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gLOVui-XTa0jFNJpq2_D-14" value="Sincronizar lecturas de sensores" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="530" y="230" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="gLOVui-XTa0jFNJpq2_D-15" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=1;entryDx=0;entryDy=0;dashed=1;dashPattern=8 8;startArrow=classic;startFill=1;endArrow=none;" edge="1" parent="1" source="gLOVui-XTa0jFNJpq2_D-17" target="gLOVui-XTa0jFNJpq2_D-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gLOVui-XTa0jFNJpq2_D-16" value="&amp;lt;&amp;lt;Include&amp;gt;&amp;gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="gLOVui-XTa0jFNJpq2_D-15">
+          <mxGeometry x="-0.1687" y="3" relative="1" as="geometry">
+            <mxPoint x="-8" y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gLOVui-XTa0jFNJpq2_D-17" value="Activar Riego" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="530" y="300" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="gLOVui-XTa0jFNJpq2_D-18" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;startFill=0;" edge="1" parent="1" source="gLOVui-XTa0jFNJpq2_D-17" target="gLOVui-XTa0jFNJpq2_D-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gLOVui-XTa0jFNJpq2_D-19" value="Enviar Notificación" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="530" y="380" width="100" height="50" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="YCh7UydA7967gv12s8x6" name="Riego_Automatico">
+    <mxGraphModel dx="874" dy="481" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="ko_VxQBo2jVOEb-XAHWc-1" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="75" y="10" width="700" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="ko_VxQBo2jVOEb-XAHWc-2" value="&lt;div style=&quot;-webkit-user-drag: none; -webkit-tap-highlight-color: transparent; margin: 0px; padding: 0px; user-select: text; clear: both; cursor: text; overflow: visible; position: relative; direction: ltr; color: rgb(0, 0, 0); font-family: &amp;quot;Segoe UI&amp;quot;, &amp;quot;Segoe UI Web&amp;quot;, Arial, Verdana, sans-serif; text-align: start;&quot; class=&quot;OutlineElement Ltr SCXW107485866 BCX0&quot;&gt;&lt;p style=&quot;-webkit-user-drag: none; -webkit-tap-highlight-color: transparent; margin: 5.26667px 0px 0px; padding: 0px; user-select: text; overflow-wrap: break-word; white-space-collapse: preserve; vertical-align: baseline; font-kerning: none; color: windowtext; text-align: center;&quot; class=&quot;Paragraph SCXW107485866 BCX0&quot;&gt;&lt;span style=&quot;-webkit-user-drag: none; -webkit-tap-highlight-color: transparent; margin: 0px; padding: 0px; user-select: text; font-size: 16pt; font-style: italic; line-height: 25px; font-family: Arial, Arial_EmbeddedFont, Arial_MSFontService, sans-serif; font-weight: bold; background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); font-variant-ligatures: none !important;&quot; class=&quot;TextRun SCXW107485866 BCX0&quot; lang=&quot;ES-ES&quot; data-contrast=&quot;auto&quot;&gt;Prototipo para el Control de Humedad por Sensores&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;-webkit-user-drag: none; -webkit-tap-highlight-color: transparent; margin: 5.26667px 0px 0px; padding: 0px; user-select: text; overflow-wrap: break-word; white-space-collapse: preserve; vertical-align: baseline; font-kerning: none; color: windowtext; text-align: center;&quot; class=&quot;Paragraph SCXW107485866 BCX0&quot;&gt;&lt;span style=&quot;-webkit-user-drag: none; -webkit-tap-highlight-color: transparent; margin: 0px; padding: 0px; user-select: text; font-size: 16pt; font-style: italic; line-height: 25px; font-family: Arial, Arial_EmbeddedFont, Arial_MSFontService, sans-serif; font-weight: bold; background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); font-variant-ligatures: none !important;&quot; class=&quot;TextRun SCXW107485866 BCX0&quot; lang=&quot;ES-ES&quot; data-contrast=&quot;auto&quot;&gt;SISRIEGOSENS &lt;/span&gt;&lt;/p&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=default;fillStyle=dashed;" vertex="1" parent="ko_VxQBo2jVOEb-XAHWc-1">
+          <mxGeometry width="700" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ko_VxQBo2jVOEb-XAHWc-3" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="ko_VxQBo2jVOEb-XAHWc-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="75" y="70" as="sourcePoint" />
+            <mxPoint x="615" y="70" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="355" y="70" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ko_VxQBo2jVOEb-XAHWc-4" value="" style="whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="40" y="110" width="770" height="390" as="geometry" />
+        </mxCell>
+        <mxCell id="ko_VxQBo2jVOEb-XAHWc-5" value="&lt;b&gt;Caso de Uso RF03&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="367" y="120" width="117" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ko_VxQBo2jVOEb-XAHWc-8" value="" style="whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="230" y="200" width="410" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="ko_VxQBo2jVOEb-XAHWc-9" value="SISRIEGOSENS" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="745" y="290" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ko_VxQBo2jVOEb-XAHWc-10" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;dashPattern=8 8;" edge="1" parent="1" source="ko_VxQBo2jVOEb-XAHWc-14" target="ko_VxQBo2jVOEb-XAHWc-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ko_VxQBo2jVOEb-XAHWc-11" value="&amp;lt;&amp;lt;Include&amp;gt;&amp;gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ko_VxQBo2jVOEb-XAHWc-10">
+          <mxGeometry x="0.0659" y="1" relative="1" as="geometry">
+            <mxPoint x="-5" y="-3" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ko_VxQBo2jVOEb-XAHWc-12" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;dashPattern=8 8;endArrow=classic;startFill=0;startArrow=none;endFill=1;" edge="1" parent="1" source="ko_VxQBo2jVOEb-XAHWc-14" target="ko_VxQBo2jVOEb-XAHWc-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ko_VxQBo2jVOEb-XAHWc-14" value="Activar el riego de forma Automatica" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="270" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ko_VxQBo2jVOEb-XAHWc-15" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;startFill=0;entryX=0.5;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="ko_VxQBo2jVOEb-XAHWc-16" target="ko_VxQBo2jVOEb-XAHWc-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ko_VxQBo2jVOEb-XAHWc-16" value="Sincronizar lecturas de sensores" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="530" y="230" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ko_VxQBo2jVOEb-XAHWc-17" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=1;entryDx=0;entryDy=0;dashed=1;dashPattern=8 8;startArrow=classic;startFill=1;endArrow=none;" edge="1" parent="1" source="ko_VxQBo2jVOEb-XAHWc-19" target="ko_VxQBo2jVOEb-XAHWc-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ko_VxQBo2jVOEb-XAHWc-18" value="&amp;lt;&amp;lt;Include&amp;gt;&amp;gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ko_VxQBo2jVOEb-XAHWc-17">
+          <mxGeometry x="-0.1687" y="3" relative="1" as="geometry">
+            <mxPoint x="-5" y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ko_VxQBo2jVOEb-XAHWc-19" value="Activar Riego" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="530" y="300" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ko_VxQBo2jVOEb-XAHWc-20" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;startFill=0;" edge="1" parent="1" source="ko_VxQBo2jVOEb-XAHWc-19" target="ko_VxQBo2jVOEb-XAHWc-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ko_VxQBo2jVOEb-XAHWc-21" value="Enviar Notificación" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="530" y="380" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ko_VxQBo2jVOEb-XAHWc-22" value="&amp;lt;&amp;lt;Include&amp;gt;&amp;gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="460.0000814764403" y="359.9978908465747" as="geometry" />
+        </mxCell>
+        <mxCell id="ko_VxQBo2jVOEb-XAHWc-23" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;endArrow=none;startFill=0;" edge="1" parent="1" source="ko_VxQBo2jVOEb-XAHWc-21" target="ko_VxQBo2jVOEb-XAHWc-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="jGeFqmA6M1C__4eW0PZZ" name="Guarda_BD">
+    <mxGraphModel dx="874" dy="481" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="dDMOelHdWBTUp38TGhrh-1" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="75" y="10" width="700" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="dDMOelHdWBTUp38TGhrh-2" value="&lt;div style=&quot;-webkit-user-drag: none; -webkit-tap-highlight-color: transparent; margin: 0px; padding: 0px; user-select: text; clear: both; cursor: text; overflow: visible; position: relative; direction: ltr; color: rgb(0, 0, 0); font-family: &amp;quot;Segoe UI&amp;quot;, &amp;quot;Segoe UI Web&amp;quot;, Arial, Verdana, sans-serif; text-align: start;&quot; class=&quot;OutlineElement Ltr SCXW107485866 BCX0&quot;&gt;&lt;p style=&quot;-webkit-user-drag: none; -webkit-tap-highlight-color: transparent; margin: 5.26667px 0px 0px; padding: 0px; user-select: text; overflow-wrap: break-word; white-space-collapse: preserve; vertical-align: baseline; font-kerning: none; color: windowtext; text-align: center;&quot; class=&quot;Paragraph SCXW107485866 BCX0&quot;&gt;&lt;span style=&quot;-webkit-user-drag: none; -webkit-tap-highlight-color: transparent; margin: 0px; padding: 0px; user-select: text; font-size: 16pt; font-style: italic; line-height: 25px; font-family: Arial, Arial_EmbeddedFont, Arial_MSFontService, sans-serif; font-weight: bold; background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); font-variant-ligatures: none !important;&quot; class=&quot;TextRun SCXW107485866 BCX0&quot; lang=&quot;ES-ES&quot; data-contrast=&quot;auto&quot;&gt;Prototipo para el Control de Humedad por Sensores&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;-webkit-user-drag: none; -webkit-tap-highlight-color: transparent; margin: 5.26667px 0px 0px; padding: 0px; user-select: text; overflow-wrap: break-word; white-space-collapse: preserve; vertical-align: baseline; font-kerning: none; color: windowtext; text-align: center;&quot; class=&quot;Paragraph SCXW107485866 BCX0&quot;&gt;&lt;span style=&quot;-webkit-user-drag: none; -webkit-tap-highlight-color: transparent; margin: 0px; padding: 0px; user-select: text; font-size: 16pt; font-style: italic; line-height: 25px; font-family: Arial, Arial_EmbeddedFont, Arial_MSFontService, sans-serif; font-weight: bold; background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); font-variant-ligatures: none !important;&quot; class=&quot;TextRun SCXW107485866 BCX0&quot; lang=&quot;ES-ES&quot; data-contrast=&quot;auto&quot;&gt;SISRIEGOSENS &lt;/span&gt;&lt;/p&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=default;fillStyle=dashed;" vertex="1" parent="dDMOelHdWBTUp38TGhrh-1">
+          <mxGeometry width="700" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dDMOelHdWBTUp38TGhrh-3" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="dDMOelHdWBTUp38TGhrh-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="75" y="70" as="sourcePoint" />
+            <mxPoint x="615" y="70" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="355" y="70" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dDMOelHdWBTUp38TGhrh-4" value="" style="whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="40" y="110" width="770" height="390" as="geometry" />
+        </mxCell>
+        <mxCell id="dDMOelHdWBTUp38TGhrh-5" value="&lt;b&gt;Caso de Uso RF04&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="367" y="120" width="117" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="dDMOelHdWBTUp38TGhrh-9" value="SISRIEGOSENS" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="745" y="275" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dDMOelHdWBTUp38TGhrh-14" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;startFill=0;entryX=0.5;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="dDMOelHdWBTUp38TGhrh-15" target="dDMOelHdWBTUp38TGhrh-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dDMOelHdWBTUp38TGhrh-22" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;endArrow=none;startFill=0;" edge="1" parent="1" source="dDMOelHdWBTUp38TGhrh-20" target="dDMOelHdWBTUp38TGhrh-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EC-n6DF1jYkEAfU6hirR-2" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="224" y="180" width="380" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="EC-n6DF1jYkEAfU6hirR-1" value="" style="whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="EC-n6DF1jYkEAfU6hirR-2">
+          <mxGeometry width="380" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="dDMOelHdWBTUp38TGhrh-10" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;dashPattern=8 8;" edge="1" parent="EC-n6DF1jYkEAfU6hirR-2" source="dDMOelHdWBTUp38TGhrh-13" target="dDMOelHdWBTUp38TGhrh-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dDMOelHdWBTUp38TGhrh-11" value="&amp;lt;&amp;lt;Include&amp;gt;&amp;gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="dDMOelHdWBTUp38TGhrh-10">
+          <mxGeometry x="0.0659" y="1" relative="1" as="geometry">
+            <mxPoint x="-5" y="-3" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dDMOelHdWBTUp38TGhrh-12" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;dashPattern=8 8;endArrow=none;startFill=1;startArrow=classic;endFill=1;" edge="1" parent="EC-n6DF1jYkEAfU6hirR-2" source="dDMOelHdWBTUp38TGhrh-13" target="dDMOelHdWBTUp38TGhrh-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dDMOelHdWBTUp38TGhrh-13" value="Guardar lecturas en BD" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="EC-n6DF1jYkEAfU6hirR-2">
+          <mxGeometry y="90" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="dDMOelHdWBTUp38TGhrh-15" value="Sincronizar lecturas de sensores" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="EC-n6DF1jYkEAfU6hirR-2">
+          <mxGeometry x="240" y="50" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="dDMOelHdWBTUp38TGhrh-20" value="Reporte&amp;nbsp;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="EC-n6DF1jYkEAfU6hirR-2">
+          <mxGeometry x="240" y="200" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="dDMOelHdWBTUp38TGhrh-21" value="&amp;lt;&amp;lt;Extends&amp;gt;&amp;gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="EC-n6DF1jYkEAfU6hirR-2">
+          <mxGeometry x="170.0000814764403" y="179.9978908465747" as="geometry">
+            <mxPoint x="-12" y="-2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="ccykw4cDs79pjgh3ziIA" name="Envio_Notificacion">
+    <mxGraphModel dx="874" dy="481" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="j9YReofb16RYCy5HAHfC-1" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="75" y="10" width="700" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="j9YReofb16RYCy5HAHfC-2" value="&lt;div style=&quot;-webkit-user-drag: none; -webkit-tap-highlight-color: transparent; margin: 0px; padding: 0px; user-select: text; clear: both; cursor: text; overflow: visible; position: relative; direction: ltr; color: rgb(0, 0, 0); font-family: &amp;quot;Segoe UI&amp;quot;, &amp;quot;Segoe UI Web&amp;quot;, Arial, Verdana, sans-serif; text-align: start;&quot; class=&quot;OutlineElement Ltr SCXW107485866 BCX0&quot;&gt;&lt;p style=&quot;-webkit-user-drag: none; -webkit-tap-highlight-color: transparent; margin: 5.26667px 0px 0px; padding: 0px; user-select: text; overflow-wrap: break-word; white-space-collapse: preserve; vertical-align: baseline; font-kerning: none; color: windowtext; text-align: center;&quot; class=&quot;Paragraph SCXW107485866 BCX0&quot;&gt;&lt;span style=&quot;-webkit-user-drag: none; -webkit-tap-highlight-color: transparent; margin: 0px; padding: 0px; user-select: text; font-size: 16pt; font-style: italic; line-height: 25px; font-family: Arial, Arial_EmbeddedFont, Arial_MSFontService, sans-serif; font-weight: bold; background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); font-variant-ligatures: none !important;&quot; class=&quot;TextRun SCXW107485866 BCX0&quot; lang=&quot;ES-ES&quot; data-contrast=&quot;auto&quot;&gt;Prototipo para el Control de Humedad por Sensores&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;-webkit-user-drag: none; -webkit-tap-highlight-color: transparent; margin: 5.26667px 0px 0px; padding: 0px; user-select: text; overflow-wrap: break-word; white-space-collapse: preserve; vertical-align: baseline; font-kerning: none; color: windowtext; text-align: center;&quot; class=&quot;Paragraph SCXW107485866 BCX0&quot;&gt;&lt;span style=&quot;-webkit-user-drag: none; -webkit-tap-highlight-color: transparent; margin: 0px; padding: 0px; user-select: text; font-size: 16pt; font-style: italic; line-height: 25px; font-family: Arial, Arial_EmbeddedFont, Arial_MSFontService, sans-serif; font-weight: bold; background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); font-variant-ligatures: none !important;&quot; class=&quot;TextRun SCXW107485866 BCX0&quot; lang=&quot;ES-ES&quot; data-contrast=&quot;auto&quot;&gt;SISRIEGOSENS &lt;/span&gt;&lt;/p&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=default;fillStyle=dashed;" vertex="1" parent="j9YReofb16RYCy5HAHfC-1">
+          <mxGeometry width="700" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="j9YReofb16RYCy5HAHfC-3" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="j9YReofb16RYCy5HAHfC-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="75" y="70" as="sourcePoint" />
+            <mxPoint x="615" y="70" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="355" y="70" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="j9YReofb16RYCy5HAHfC-4" value="" style="whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="40" y="110" width="770" height="390" as="geometry" />
+        </mxCell>
+        <mxCell id="j9YReofb16RYCy5HAHfC-5" value="&lt;b&gt;Caso de Uso RF04&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="367" y="120" width="117" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="j9YReofb16RYCy5HAHfC-6" value="SISRIEGOSENS" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="745" y="275" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="j9YReofb16RYCy5HAHfC-7" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;startFill=0;entryX=0.5;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="j9YReofb16RYCy5HAHfC-15" target="j9YReofb16RYCy5HAHfC-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="j9YReofb16RYCy5HAHfC-8" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;endArrow=none;startFill=0;" edge="1" parent="1" source="j9YReofb16RYCy5HAHfC-16" target="j9YReofb16RYCy5HAHfC-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="j9YReofb16RYCy5HAHfC-9" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="224" y="180" width="380" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="j9YReofb16RYCy5HAHfC-10" value="" style="whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="j9YReofb16RYCy5HAHfC-9">
+          <mxGeometry width="380" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="j9YReofb16RYCy5HAHfC-11" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;dashPattern=8 8;" edge="1" parent="j9YReofb16RYCy5HAHfC-9" source="j9YReofb16RYCy5HAHfC-14" target="j9YReofb16RYCy5HAHfC-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="j9YReofb16RYCy5HAHfC-12" value="&amp;lt;&amp;lt;Include&amp;gt;&amp;gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="j9YReofb16RYCy5HAHfC-11">
+          <mxGeometry x="0.0659" y="1" relative="1" as="geometry">
+            <mxPoint x="-5" y="-3" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="j9YReofb16RYCy5HAHfC-13" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;dashPattern=8 8;endArrow=classic;startFill=0;startArrow=none;endFill=1;" edge="1" parent="j9YReofb16RYCy5HAHfC-9" source="j9YReofb16RYCy5HAHfC-14" target="j9YReofb16RYCy5HAHfC-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="j9YReofb16RYCy5HAHfC-14" value="Enviar notificación" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="j9YReofb16RYCy5HAHfC-9">
+          <mxGeometry y="90" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="j9YReofb16RYCy5HAHfC-15" value="Sincronizar lecturas de sensores" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="j9YReofb16RYCy5HAHfC-9">
+          <mxGeometry x="240" y="50" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="j9YReofb16RYCy5HAHfC-16" value="Inicio Riego Automatico" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="j9YReofb16RYCy5HAHfC-9">
+          <mxGeometry x="240" y="200" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="j9YReofb16RYCy5HAHfC-18" value="&amp;lt;&amp;lt;Include&amp;gt;&amp;gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="j9YReofb16RYCy5HAHfC-9">
+          <mxGeometry x="155.99849197413056" y="180.00479091592854" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
