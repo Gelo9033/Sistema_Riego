@@ -1,9 +1,78 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36" version="26.2.9">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36" version="26.2.10">
   <diagram name="Página-1" id="arvDlLISbcDBrVnGGUqu">
-    <mxGraphModel>
+    <mxGraphModel dx="1748" dy="962" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="gssGcW6bRnnRcE1PZCzO-5" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="75" y="10" width="700" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="gssGcW6bRnnRcE1PZCzO-1" value="&lt;div style=&quot;-webkit-user-drag: none; -webkit-tap-highlight-color: transparent; margin: 0px; padding: 0px; user-select: text; clear: both; cursor: text; overflow: visible; position: relative; direction: ltr; color: rgb(0, 0, 0); font-family: &amp;quot;Segoe UI&amp;quot;, &amp;quot;Segoe UI Web&amp;quot;, Arial, Verdana, sans-serif; text-align: start;&quot; class=&quot;OutlineElement Ltr SCXW107485866 BCX0&quot;&gt;&lt;p style=&quot;-webkit-user-drag: none; -webkit-tap-highlight-color: transparent; margin: 5.26667px 0px 0px; padding: 0px; user-select: text; overflow-wrap: break-word; white-space-collapse: preserve; vertical-align: baseline; font-kerning: none; color: windowtext; text-align: center;&quot; class=&quot;Paragraph SCXW107485866 BCX0&quot;&gt;&lt;span style=&quot;-webkit-user-drag: none; -webkit-tap-highlight-color: transparent; margin: 0px; padding: 0px; user-select: text; font-size: 16pt; font-style: italic; line-height: 25px; font-family: Arial, Arial_EmbeddedFont, Arial_MSFontService, sans-serif; font-weight: bold; background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); font-variant-ligatures: none !important;&quot; class=&quot;TextRun SCXW107485866 BCX0&quot; lang=&quot;ES-ES&quot; data-contrast=&quot;auto&quot;&gt;Prototipo para el Control de Humedad por Sensores&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;-webkit-user-drag: none; -webkit-tap-highlight-color: transparent; margin: 5.26667px 0px 0px; padding: 0px; user-select: text; overflow-wrap: break-word; white-space-collapse: preserve; vertical-align: baseline; font-kerning: none; color: windowtext; text-align: center;&quot; class=&quot;Paragraph SCXW107485866 BCX0&quot;&gt;&lt;span style=&quot;-webkit-user-drag: none; -webkit-tap-highlight-color: transparent; margin: 0px; padding: 0px; user-select: text; font-size: 16pt; font-style: italic; line-height: 25px; font-family: Arial, Arial_EmbeddedFont, Arial_MSFontService, sans-serif; font-weight: bold; background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); font-variant-ligatures: none !important;&quot; class=&quot;TextRun SCXW107485866 BCX0&quot; lang=&quot;ES-ES&quot; data-contrast=&quot;auto&quot;&gt;SISRIEGOSENS &lt;/span&gt;&lt;/p&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=default;fillStyle=dashed;" vertex="1" parent="gssGcW6bRnnRcE1PZCzO-5">
+          <mxGeometry width="700" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gssGcW6bRnnRcE1PZCzO-4" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="gssGcW6bRnnRcE1PZCzO-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="75" y="70" as="sourcePoint" />
+            <mxPoint x="625" y="70" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="355" y="70" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gssGcW6bRnnRcE1PZCzO-6" value="" style="whiteSpace=wrap;html=1;aspect=fixed;fillStyle=hatch;fillColor=none;strokeWidth=4;" vertex="1" parent="1">
+          <mxGeometry x="70" y="150" width="700" height="700" as="geometry" />
+        </mxCell>
+        <mxCell id="gssGcW6bRnnRcE1PZCzO-7" value="&lt;b&gt;CASO DE USO GENERAL&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="343" y="160" width="165" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gssGcW6bRnnRcE1PZCzO-27" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;startFill=0;" edge="1" parent="1" source="gssGcW6bRnnRcE1PZCzO-8" target="gssGcW6bRnnRcE1PZCzO-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gssGcW6bRnnRcE1PZCzO-8" value="Activar/Desactivar&amp;nbsp; el riego" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="200" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="gssGcW6bRnnRcE1PZCzO-29" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;startFill=0;" edge="1" parent="1" source="gssGcW6bRnnRcE1PZCzO-9" target="gssGcW6bRnnRcE1PZCzO-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gssGcW6bRnnRcE1PZCzO-9" value="Monitorear en tiempo real las condiciones de sensores" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="380" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="gssGcW6bRnnRcE1PZCzO-28" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;startFill=0;" edge="1" parent="1" source="gssGcW6bRnnRcE1PZCzO-10" target="gssGcW6bRnnRcE1PZCzO-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gssGcW6bRnnRcE1PZCzO-10" value="Recibir notificaciones de inio y fin de riego" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="550" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="gssGcW6bRnnRcE1PZCzO-25" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;startFill=0;exitX=0.99;exitY=0.435;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="gssGcW6bRnnRcE1PZCzO-11" target="gssGcW6bRnnRcE1PZCzO-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gssGcW6bRnnRcE1PZCzO-11" value="Realizar consultas en diferentes periodos de lecturas realizadas por sensores" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="720" width="162.75" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="gssGcW6bRnnRcE1PZCzO-19" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;startFill=0;" edge="1" parent="1" source="gssGcW6bRnnRcE1PZCzO-12" target="gssGcW6bRnnRcE1PZCzO-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gssGcW6bRnnRcE1PZCzO-20" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;startFill=0;" edge="1" parent="1" source="gssGcW6bRnnRcE1PZCzO-12" target="gssGcW6bRnnRcE1PZCzO-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gssGcW6bRnnRcE1PZCzO-21" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;startFill=0;" edge="1" parent="1" source="gssGcW6bRnnRcE1PZCzO-12" target="gssGcW6bRnnRcE1PZCzO-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gssGcW6bRnnRcE1PZCzO-22" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;startFill=0;" edge="1" parent="1" source="gssGcW6bRnnRcE1PZCzO-12" target="gssGcW6bRnnRcE1PZCzO-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gssGcW6bRnnRcE1PZCzO-12" value="Administrador" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="140" y="415" width="70" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="gssGcW6bRnnRcE1PZCzO-15" value="Encargado_Campo" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="680" y="420" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gssGcW6bRnnRcE1PZCzO-16" value="Encargado_Riego" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="680" y="200" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gssGcW6bRnnRcE1PZCzO-17" value="Gerente" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="680" y="640" width="30" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
