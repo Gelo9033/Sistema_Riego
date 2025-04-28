@@ -2,7 +2,9 @@
   <diagram name="Página-1" id="H8jEH6x_Xlw1daOKfOeM">
     <mxGraphModel dx="1512" dy="744" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
-        <mxCell id="0" />
+        <object label="" id="0">
+          <mxCell />
+        </object>
         <mxCell id="1" parent="0" />
         <mxCell id="bytlwHfJNPBL17TegRJU-14" value="&lt;b&gt;CONEXIÓN ESP 32 WROOM-32 SENSOR CAPACITIVO DE HUMEDAD&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="202" y="110" width="445" height="30" as="geometry" />
