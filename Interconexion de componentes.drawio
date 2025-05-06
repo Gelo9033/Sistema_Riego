@@ -1,9 +1,93 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36" version="26.2.14">
   <diagram name="Página-1" id="NTAjbC9_13Zbezv6L1jL">
-    <mxGraphModel>
+    <mxGraphModel dx="872" dy="481" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="h0HM0mi5Yc5l8cANAMUc-1" value="&lt;b&gt;CONEXIÓN COMPONENTES&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="202" y="110" width="445" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="h0HM0mi5Yc5l8cANAMUc-2" value="&lt;div style=&quot;-webkit-user-drag: none; -webkit-tap-highlight-color: transparent; margin: 0px; padding: 0px; user-select: text; clear: both; cursor: text; overflow: visible; position: relative; direction: ltr; color: rgb(0, 0, 0); font-family: &amp;quot;Segoe UI&amp;quot;, &amp;quot;Segoe UI Web&amp;quot;, Arial, Verdana, sans-serif; text-align: start;&quot; class=&quot;OutlineElement Ltr SCXW107485866 BCX0&quot;&gt;&lt;p style=&quot;-webkit-user-drag: none; -webkit-tap-highlight-color: transparent; margin: 5.26667px 0px 0px; padding: 0px; user-select: text; overflow-wrap: break-word; white-space-collapse: preserve; vertical-align: baseline; font-kerning: none; color: windowtext; text-align: center;&quot; class=&quot;Paragraph SCXW107485866 BCX0&quot;&gt;&lt;span style=&quot;-webkit-user-drag: none; -webkit-tap-highlight-color: transparent; margin: 0px; padding: 0px; user-select: text; font-size: 16pt; font-style: italic; line-height: 25px; font-family: Arial, Arial_EmbeddedFont, Arial_MSFontService, sans-serif; font-weight: bold; background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); font-variant-ligatures: none !important;&quot; class=&quot;TextRun SCXW107485866 BCX0&quot; lang=&quot;ES-ES&quot; data-contrast=&quot;auto&quot;&gt;Prototipo para el Control de Humedad por Sensores&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;-webkit-user-drag: none; -webkit-tap-highlight-color: transparent; margin: 5.26667px 0px 0px; padding: 0px; user-select: text; overflow-wrap: break-word; white-space-collapse: preserve; vertical-align: baseline; font-kerning: none; color: windowtext; text-align: center;&quot; class=&quot;Paragraph SCXW107485866 BCX0&quot;&gt;&lt;span style=&quot;-webkit-user-drag: none; -webkit-tap-highlight-color: transparent; margin: 0px; padding: 0px; user-select: text; font-size: 16pt; font-style: italic; line-height: 25px; font-family: Arial, Arial_EmbeddedFont, Arial_MSFontService, sans-serif; font-weight: bold; background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); font-variant-ligatures: none !important;&quot; class=&quot;TextRun SCXW107485866 BCX0&quot; lang=&quot;ES-ES&quot; data-contrast=&quot;auto&quot;&gt;SISRIEGOSENS &lt;/span&gt;&lt;/p&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=default;fillStyle=dashed;" vertex="1" parent="1">
+          <mxGeometry x="75" y="10" width="700" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="h0HM0mi5Yc5l8cANAMUc-3" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="150" y="80" as="sourcePoint" />
+            <mxPoint x="690" y="80" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="430" y="80" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="h0HM0mi5Yc5l8cANAMUc-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;" edge="1" parent="1" source="h0HM0mi5Yc5l8cANAMUc-4" target="h0HM0mi5Yc5l8cANAMUc-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="h0HM0mi5Yc5l8cANAMUc-24" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;" edge="1" parent="1" source="h0HM0mi5Yc5l8cANAMUc-4" target="h0HM0mi5Yc5l8cANAMUc-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="h0HM0mi5Yc5l8cANAMUc-4" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://upload.wikimedia.org/wikipedia/en/thumb/4/49/Home_Assistant_logo_%282023%29.svg/1200px-Home_Assistant_logo_%282023%29.svg.png;" vertex="1" parent="1">
+          <mxGeometry x="70" y="180" width="132" height="132" as="geometry" />
+        </mxCell>
+        <mxCell id="h0HM0mi5Yc5l8cANAMUc-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;startFill=0;strokeWidth=2;" edge="1" parent="1" source="h0HM0mi5Yc5l8cANAMUc-8" target="h0HM0mi5Yc5l8cANAMUc-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="h0HM0mi5Yc5l8cANAMUc-8" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://brandlogos.net/wp-content/uploads/2020/09/raspberry-pi-logo-512x512.png;" vertex="1" parent="1">
+          <mxGeometry x="90" y="398" width="92" height="92" as="geometry" />
+        </mxCell>
+        <mxCell id="h0HM0mi5Yc5l8cANAMUc-13" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=2;" edge="1" parent="1" source="h0HM0mi5Yc5l8cANAMUc-12" target="h0HM0mi5Yc5l8cANAMUc-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="h0HM0mi5Yc5l8cANAMUc-12" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://cdn-icons-png.flaticon.com/512/728/728093.png;" vertex="1" parent="1">
+          <mxGeometry x="567" y="130" width="72" height="72" as="geometry" />
+        </mxCell>
+        <mxCell id="h0HM0mi5Yc5l8cANAMUc-19" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=2;" edge="1" parent="1" source="h0HM0mi5Yc5l8cANAMUc-18" target="h0HM0mi5Yc5l8cANAMUc-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="h0HM0mi5Yc5l8cANAMUc-18" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://img.freepik.com/vector-premium/icono-bandera-brisa-fuerte-establecido-velocidad-viento-ventilador-calcetin-viento-simbolo-vectorial-cielo-estilo-negro-lleno-delineado-senal-advertencia-meteorologica_268104-6621.jpg;clipPath=inset(27% 22.33% 28% 21.33%);" vertex="1" parent="1">
+          <mxGeometry x="540" y="250" width="126" height="100.65088757396451" as="geometry" />
+        </mxCell>
+        <mxCell id="h0HM0mi5Yc5l8cANAMUc-21" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=2;" edge="1" parent="1" source="h0HM0mi5Yc5l8cANAMUc-20" target="h0HM0mi5Yc5l8cANAMUc-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="h0HM0mi5Yc5l8cANAMUc-20" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://img.freepik.com/vector-premium/icono-termometro-o-simbolo-o-emblema-temperatura-vector-e-ilustracion_231786-4041.jpg;clipPath=inset(18.33% 13.33% 18.33% 13.33%);" vertex="1" parent="1">
+          <mxGeometry x="540" y="390" width="115.79" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="h0HM0mi5Yc5l8cANAMUc-26" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;" edge="1" parent="1" source="h0HM0mi5Yc5l8cANAMUc-23" target="h0HM0mi5Yc5l8cANAMUc-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="h0HM0mi5Yc5l8cANAMUc-23" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://www.andiar.com/5262-large_default/pegatina-boton-interruptor.jpg;" vertex="1" parent="1">
+          <mxGeometry x="260" y="490" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="h0HM0mi5Yc5l8cANAMUc-25" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://cdn-icons-png.flaticon.com/512/5220/5220449.png;" vertex="1" parent="1">
+          <mxGeometry x="387" y="529" width="112" height="112" as="geometry" />
+        </mxCell>
+        <mxCell id="h0HM0mi5Yc5l8cANAMUc-28" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://cdn-icons-png.flaticon.com/512/1420/1420398.png;" vertex="1" parent="1">
+          <mxGeometry x="110" y="540" width="52" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="h0HM0mi5Yc5l8cANAMUc-30" value="Bomba de Agua" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="400" y="641" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="h0HM0mi5Yc5l8cANAMUc-31" value="Sensor de temperatura" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="528" y="499" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="h0HM0mi5Yc5l8cANAMUc-32" value="Anemómetro" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="558" y="350.65" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="h0HM0mi5Yc5l8cANAMUc-33" value="Sensor Humedad" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="543" y="209.99999999999997" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="h0HM0mi5Yc5l8cANAMUc-34" value="Home Assitant" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="84" y="140" width="104" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="h0HM0mi5Yc5l8cANAMUc-35" value="Raspberry" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="84" y="469" width="104" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="h0HM0mi5Yc5l8cANAMUc-36" value="BD" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="90" y="592" width="104" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="h0HM0mi5Yc5l8cANAMUc-37" value="Actuador" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="238" y="551" width="104" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
