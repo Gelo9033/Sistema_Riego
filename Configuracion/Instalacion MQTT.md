@@ -1,7 +1,5 @@
-<div>
-<a href="https://mqtt.org/use-cases/">
-<img src="imagenes/mqtt.png" alt="Logo" width="80" height="80">
-</div>
+
+[![MQTT Logo](imagenes/mqtt.png)](https://mqtt.org/use-cases/)
 
 # Instalacion MQTT
 
