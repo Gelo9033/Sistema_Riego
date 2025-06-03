@@ -1,68 +1,82 @@
-<p align ="center"> 
-    <img src="/imagenes/anemometro.png" alt="Logo" width="160" height="100">
-  </a>
+<p align="center">
+  <img src="/imagenes/anemometro.png" alt="Anemómetro" width="160" height="90">
 </p>
 
+<h1 align="center">Anemómetro con ESP32</h1>
 
-#include <WiFi.h>
-#include <PubSubClient.h>
+Este proyecto implementa un anemómetro digital utilizando un ESP32 para medir la velocidad del viento con alta sensibilidad y precisión. El sistema convierte las lecturas analógicas de un sensor de viento en valores de velocidad en diferentes unidades.
 
-// Configuración de Wi-Fi
-const char* ssid = "TU_SSID";           // Reemplaza con tu SSID
-const char* password = "TU_CONTRASEÑA"; // Reemplaza con tu contraseña
+<br>
 
-// Configuración del broker MQTT
-const char* mqtt_server = "192.168.10.92"; // Dirección IP de tu broker MQTT
-const int mqtt_port = 1883;
-const char* mqtt_user = "TU_USUARIO_MQTT";       // Reemplaza con tu usuario MQTT
-const char* mqtt_password = "TU_CONTRASEÑA_MQTT"; // Reemplaza con tu contraseña MQTT
+Elementos utilizados:
 
-// Configuración del anemómetro
-const int anemometerPin = 34; // GPIO al que está conectado el anemómetro
-const float voltageMin = 0.0;   // Voltaje mínimo de salida del anemómetro (sin viento)
-const float voltageMax = 3.3;   // Voltaje máximo de salida del anemómetro (velocidad máxima)
-const float windSpeedMax = 32.4; // Velocidad máxima del anemómetro en m/s
+- **Microcontrolador:** ESP32
+- **Sensor de viento:** Motor de dos polos
+- **Componentes adicionales:**
+  - Diodo Zener
+  - Resistencia de 1 kΩ
+  - Condensador de 100 µF
+  - Regulador de voltaje L7805CV
 
-WiFiClient espClient;
-PubSubClient client(espClient);
+## Configuración del pin se selecciona el Pin 14 
+const int pinAnemometro = 14; 
 
-void setup_wifi() {
-  WiFi.begin(ssid, password);
-  while (WiFi.status() != WL_CONNECTED) {
-    delay(500);
-  }
-}
+## Parámetros de calibración
 
-void reconnect() {
-  while (!client.connected()) {
-    if (client.connect("ESP32Client", mqtt_user, mqtt_password)) {
-      // Conexión exitosa al broker MQTT
-    } else {
-      delay(5000); // Espera 5 segundos antes de reintentar
-    }
-  }
-}
+const float voltajeMinimo = 0.05; 
+## Maimo voltaje   
+
+const float voltajeMaximo = 3.3;     
+const float velocidadMaxima = 32.4;  
+
+## Factores de conversión (velocidad de viento)
+const float mps_a_kmh = 3.6;         
+const float mps_a_mph = 2.23694;    
+
+## Número de muestras para el promedio
+const int numMuestras = 10;
 
 void setup() {
-  setup_wifi();
-  client.setServer(mqtt_server, mqtt_port);
+  Serial.begin(115200);
+  delay(1000); // Espera para estabilizar
+
+## Mejora en la captura de Señal
+  analogSetAttenuation(ADC_11db); // Permite medir hasta ~3.3V
 }
 
 void loop() {
-  if (!client.connected()) {
-    reconnect();
+  int sumaLecturas = 0;
+  for (int i = 0; i < numMuestras; i++) {
+    sumaLecturas += analogRead(pinAnemometro);
+    delay(5); // Pequeña pausa entre lecturas
   }
-  client.loop();
+  int valorADC = sumaLecturas / numMuestras;
+## Convertir el valor ADC a voltaje
+  float voltaje = (valorADC / 4095.0) * 3.3;
 
-  // Lectura del anemómetro
-  int rawValue = analogRead(anemometerPin);
-  float voltage = (rawValue / 4095.0) * 3.3; // Convertir valor crudo a voltaje
-  float windSpeed = (voltage / voltageMax) * windSpeedMax; // Calcular velocidad del viento en m/s
+## Asegurar que el voltaje esté dentro del rango esperado
+  voltaje = constrain(voltaje, 0.0, voltajeMaximo);
 
-  // Publicar velocidad del viento en MQTT
-  char msg[8];
-  dtostrf(windSpeed, 6, 2, msg);
-  client.publish("invernadero/velocidad_viento", msg);
+## Calcular la velocidad del viento en m/s
+  float velocidad_mps = 0.0;
+  if (voltaje >= voltajeMinimo) {
+    velocidad_mps = ((voltaje - voltajeMinimo) / (voltajeMaximo - voltajeMinimo)) * velocidadMaxima;
+  }
 
-  delay(300000); // Espera 5 minutos (300,000 milisegundos) entre lecturas
+## Convertir a otras unidades
+  float velocidad_kmh = velocidad_mps * mps_a_kmh;
+  float velocidad_mph = velocidad_mps * mps_a_mph;
+
+## Mostrar los resultados
+  Serial.print("Voltaje: ");
+  Serial.print(voltaje, 2);
+  Serial.print(" V | Velocidad: ");
+  Serial.print(velocidad_mps, 2);
+  Serial.print(" m/s | ");
+  Serial.print(velocidad_kmh, 2);
+  Serial.print(" km/h | ");
+  Serial.print(velocidad_mph, 2);
+  Serial.println(" mph");
+
+  delay(1000); // Esperar 1 segundo antes de la siguiente lectura
 }
