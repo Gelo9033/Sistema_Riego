@@ -1,0 +1,113 @@
+#include <WiFi.h>
+#include <PubSubClient.h>
+
+const char* ssid = "FIBRAMAX_GUAMAN";         // Nombre de tu red Wi-Fi
+const char* password = "Lu1s331990@";         // Contraseña de tu red Wi-Fi
+
+const char* mqttServer = "192.168.100.92";    // Dirección IP de tu servidor MQTT
+const int mqttPort = 1883;                    // Puerto del servidor MQTT
+const char* mqttUser = "lfgelo";              // Usuario para la conexión MQTT
+const char* mqttPassword = "12345";           // Contraseña para la conexión MQTT
+const char* mqttTopic = "esp32/status";       // Tópico al que se suscribe el ESP32
+
+WiFiClient espClient;
+PubSubClient client(espClient);
+
+const int ledPin = 2; // GPIO2, LED integrado en muchas placas ESP32
+
+unsigned long lastMsgTime = 0;
+char msg[50];
+
+void setup() {
+  Serial.begin(115200);
+  pinMode(ledPin, OUTPUT);
+  WiFi.begin(ssid, password);
+
+  while (WiFi.status() != WL_CONNECTED) {
+    delay(500);
+    Serial.print(".");
+  }
+  Serial.println("Conectado a Wi-Fi");
+  Serial.print("Dirección IP asignada: ");
+  Serial.println(WiFi.localIP());
+
+  client.setServer(mqttServer, mqttPort);
+  client.setCallback(mqttCallback);
+
+  while (!client.connected()) {
+    Serial.print("Conectando a MQTT...");
+    if (client.connect("ESP32Client", mqttUser, mqttPassword)) {
+      Serial.println("Conectado a MQTT");
+      client.subscribe(mqttTopic);
+    } else {
+      Serial.print("Error de conexión, rc=");
+      Serial.print(client.state());
+      Serial.println(" Intentando nuevamente en 5 segundos...");
+      delay(5000);
+    }
+  }
+}
+
+void loop() {
+  client.loop();
+  if (client.connected()) {
+    unsigned long currentMillis = millis();
+    if (currentMillis - lastMsgTime >= 2000) {
+      lastMsgTime = currentMillis;
+      String ip = WiFi.localIP().toString();
+      String mqttStatus = client.connected() ? "Conectado" : "Desconectado";
+      String message = "IP: " + ip + " | MQTT: " + mqttStatus;
+      message.toCharArray(msg, 50);
+      client.publish(mqttTopic, msg);
+      Serial.println(msg);
+    }
+  }
+}
+
+void mqttCallback(char* topic, byte* payload, unsigned int length) {
+  Serial.print("Mensaje recibido en topic: ");
+  Serial.println(topic);
+  // Aquí puedes agregar lógica para manejar los mensajes recibidos
+}
+
+
+
+
+
+
+
+
+
+Esquema de Conexión Paso a Paso
+1. Ventilador de CPU como Generador
+Cable positivo del ventilador: Conéctalo al ánodo del diodo Zener.
+
+Cable negativo del ventilador: Conéctalo a tierra (GND) del circuito.
+Arduino Forum
++3
+vialidad.usb.ve
++3
+Scribd
++3
+
+2. Diodo Zener y Resistencia
+Cátodo del diodo Zener: Conéctalo a tierra (GND).
+
+Ánodo del diodo Zener: Conéctalo al cable positivo del ventilador.
+
+Resistencia de 1 kΩ: Conéctala en serie entre el ánodo del diodo Zener y el pin analógico del ESP32 (por ejemplo, GPIO34).
+ariat-tech.es
++5
+Reddit
++5
+Reddit
++5
+
+3. Capacitor de 100 µF
+Terminal positivo del capacitor: Conéctalo al pin analógico del ESP32 (donde también está conectada la resistencia de 1 kΩ).
+
+Terminal negativo del capacitor: Conéctalo a tierra (GND).
+
+4. Alimentación del ESP32
+Cable USB tipo B: Conéctalo al puerto USB del ESP32 para proporcionarle alimentación.
+
