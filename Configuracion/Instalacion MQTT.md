@@ -1,10 +1,4 @@
 
-<p align ="center"> 
-  <a href="https://mqtt.org/use-cases/">
-    <img src="/imagenes/mqtt.png" alt="Logo" width="160" height="160">
-  </a>
-</p>
-
 # Instalacion MQTT
 
 ## Actualizacion de Componentes
