@@ -1,7 +1,7 @@
 <p align="center">
   <img src="/imagenes/anemometro.png" alt="Anemómetro" width="160" height="90">
 </p>
- 
+
 <h1 align="center">Anemómetro con ESP32</h1>
 
 Este proyecto implementa un anemómetro digital utilizando un ESP32 para medir la velocidad del viento con alta sensibilidad y precisión. El sistema convierte las lecturas analógicas de un sensor de viento en valores de velocidad en diferentes unidades.
