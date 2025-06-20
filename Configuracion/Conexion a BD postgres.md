@@ -2,7 +2,9 @@
     <img src="/imagenes/postgres.png" alt="Logo" width="100" height="90">
   </a>
 </p>
+
 <h1>CONEXIÓN POSTGRES -> HOMEASSISTANT </h1>
+
 
 ## CONFIGURACION YAML EN CONFIG/CONFIGURATION.YAML
 recorder:

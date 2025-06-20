@@ -6,7 +6,9 @@
 
 CREATE DATABASE "RosasMonteserin";
 
+
 CREATE SCHEMA "Sensores";
+
 
 CREATE TABLE "Sensores".FCAT_SENSOR (
   CAT_IDSENSOR     SERIAL PRIMARY KEY,
