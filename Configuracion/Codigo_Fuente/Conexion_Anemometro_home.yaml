@@ -1,0 +1,43 @@
+## CONFIGURACIÓN YAML EN CONFIG/CONFIGURATION.YAML
+
+# Habilitar configuración por defecto de Home Assistant
+default_config:
+
+# Configuración del frontend
+frontend:
+  themes: !include_dir_merge_named themes
+  # Cargar temas desde el directorio 'themes'
+
+# Inclusión de archivos de configuración adicionales
+automation: !include automations.yaml  # Automatizaciones
+script: !include scripts.yaml         # Scripts
+scene: !include scenes.yaml          # Escenas
+
+# Configuración de MQTT y sensores
+mqtt:
+
+sensor:
+  # Configuración de sensores de anemómetro (velocidad del viento)
+  - name: "Velocidad del viento"
+    state_topic: "esp32/anemometro"  # Topic MQTT donde se publican los datos
+    unit_of_measurement: "km/h"      # Unidad de medida (kilómetros por hora)
+    value_template: "{{ value_json.kmh }}"  # Extrae valor km/h del JSON recibido
+    icon: mdi:weather-windy          # Icono para mostrar en el frontend
+
+  - name: "Viento (m/s)"
+    state_topic: "esp32/anemometro"
+    unit_of_measurement: "m/s"       # Metros por segundo
+    value_template: "{{ value_json.mps }}"
+    icon: mdi:weather-windy-variant  # Variante del icono de viento
+
+  - name: "Viento (mph)"
+    state_topic: "esp32/anemometro"
+    unit_of_measurement: "mph"       # Millas por hora
+    value_template: "{{ value_json.mph }}"
+    # Sin icono específico (usará el por defecto)
+
+  - name: "Voltaje del sensor"
+    state_topic: "esp32/anemometro"
+    unit_of_measurement: "V"         # Voltios
+    value_template: "{{ value_json.voltaje }}"
+    # Mide el voltaje de alimentación del sensor
