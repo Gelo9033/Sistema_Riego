@@ -1,0 +1,21 @@
+#docker-compose up -d //inicia servicio
+
+version: '3.8'
+services:
+  homeassistant:
+    container_name: homeassistant
+    image: ghcr.io/home-assistant/home-assistant:stable
+    volumes:
+      - ./config:/config  # Configuración persistente
+      - /etc/localtime:/etc/localtime:ro  # Sincronización de hora
+      - /run/dbus:/run/dbus:ro  # Para integración con D-Bus (opcional)
+    restart: unless-stopped
+    network_mode: host  # Modo host para mejor integración con dispositivos IoT
+    privileged: true  # Permisos elevados para acceso hardware
+    environment:
+      - TZ=America/Guayaquil  # Zona horaria
+    devices:
+      - /dev/ttyUSB0:/dev/ttyUSB0  # Para dispositivos seriales (opcional)
+      - /dev/ttyACM0:/dev/ttyACM0  # Para dispositivos ACM (opcional)
+    ports:
+      - "8123:8123"  # Puerto web
