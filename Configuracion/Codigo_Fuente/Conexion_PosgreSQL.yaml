@@ -1,0 +1,21 @@
+## CONFIGURACIÓN YAML EN CONFIG/CONFIGURATION.YAML
+# Configuración del módulo recorder para almacenamiento en PostgreSQL
+recorder:
+  db_url: postgresql://user:paswword@localhost/flores_monteserin?client_encoding=utf8 
+  # Conexión a la base de datos PostgreSQL con autenticación
+  # Usuario: user
+  # Contraseña: password
+  # Servidor: localhost
+  # Base de datos: flores_monteserin
+  # Codificación: utf8
+  
+  commit_interval: --
+  # Intervalo de escritura en la base de datos 
+  
+  purge_keep_days: --
+  # Conserva datos  días antes de purgarlos automáticamente
+  
+  include:
+    domains:
+      - sensor
+    # Solo registrar datos del dominio 'sensor'

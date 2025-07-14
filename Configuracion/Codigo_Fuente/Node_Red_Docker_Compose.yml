@@ -1,0 +1,18 @@
+#docker-compose up -d //inicia servicio 
+version: '1.0'
+
+services:
+  # Servicio Node-RED
+  nodered:
+    image: nodered/node-red:latest
+    container_name: nodered
+    restart: unless-stopped
+    environment:
+      - TZ=America/Guayaquil
+      - NODE_RED_ENABLE_PROJECTS=true
+    ports:
+      - "1880:1880"
+    volumes:
+      - ./node-red/data:/data
+    networks:
+      - iot-network

@@ -1,0 +1,37 @@
+#docker-compose up -d //inicia servicio
+version: '1.0'
+
+services:
+  db:
+    image: postgres  
+    container_name: postgresql
+    restart: always
+    shm_size: 128mb
+    environment:
+      POSTGRES_PASSWORD: password  # Manteniendo tu contraseña
+      POSTGRES_USER: user     
+      POSTGRES_DB: rosas_monteserin # Nombre de BD 
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data  # Añadido para persistencia
+    networks:
+      - postgres-network
+
+  adminer:
+    image: adminer
+    container_name: adminer
+    restart: always
+    ports:
+      - "8080:8080"
+    depends_on:
+      - db
+    networks:
+      - postgres-network
+
+volumes:
+  postgres_data:  # Volumen para persistencia de datos
+
+networks:
+  postgres-network:
+    driver: bridge
