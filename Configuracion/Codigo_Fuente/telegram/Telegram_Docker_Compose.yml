@@ -1,0 +1,15 @@
+version: '3.8'
+
+services:
+  telegram-integration:
+    container_name: telegram-integration
+    build: .
+    restart: unless-stopped
+    environment:
+      - TZ=America/Guayaquil
+    networks:
+      - ha_network # Conexión a la red externa para comunicación con Home Assistant
+
+networks:
+  ha_net:
+    external: true

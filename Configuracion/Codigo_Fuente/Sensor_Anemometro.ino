@@ -1,11 +1,11 @@
 // Configuración de la red Wi-Fi
-const char* ssid = "SSID";         // Nombre de la red WiFi
-const char* password = "passwrod";         // Contraseña del WiFi
+const char* ssid = "SSID";                    // Nombre de la red WiFi
+const char* password = "passwrod";            // Contraseña del WiFi
 
 // Configuración del broker MQTT
-const char* mqtt_server = "1.1.1.1";   // IP del broker MQTT (Raspberry Pi)
-const int mqtt_port = 1883;                  // Puerto MQTT estándar
-const char* mqtt_user = "user";             // Usuario MQTT
+const char* mqtt_server = "1.1.1.1";          // IP del broker MQTT (Raspberry Pi)
+const int mqtt_port = 1883;                   // Puerto MQTT estándar
+const char* mqtt_user = "user";               // Usuario MQTT
 const char* mqtt_password = "password";          // Contraseña MQTT
 const char* mqtt_topic = "esp32/anemometro";  // Topic para publicar datos
 

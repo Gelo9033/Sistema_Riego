@@ -19,3 +19,7 @@ services:
       - /dev/ttyACM0:/dev/ttyACM0  # Para dispositivos ACM (opcional)
     ports:
       - "8123:8123"  # Puerto web
+    networks:
+  default:
+    external:
+      name: ha_network  # Red externa para comunicación con telegram 
